@@ -1,12 +1,13 @@
-import React from 'react';
+import React from "react";
 
 // import { Container } from './styles';
-import './app.css'
-
-// import Carlos32Anos from './assets/carlos_32anos.jpeg'
+import "./app.css";
+import Techlist from "./components/Techlist";
 
 export default function App() {
   return (
-    <div> Hello world </div>
+    <div>
+      <Techlist></Techlist>
+    </div>
   );
 }
